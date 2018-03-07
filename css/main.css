@@ -1,20 +1,106 @@
-html {
+/*
+ * Globals
+ */
 
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #3becc4;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    /*background-color: #041742;*/
 }
 
 body {
-    background: #041E4B;
-    color: #3BECC4;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #3becc4;
+    text-shadow: 0 .05rem .1rem rgba(8, 200, 158, 0.5);
+    box-shadow: inset 0 0 5rem rgba(4, 21, 67, 0.5);
+    font-family: 'Michroma', sans-serif;
+    background: url('../bak1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.no-pad {
-    pading: 0 !important;
+.overlay {
+    /*max-width: 42em;*/
+    background-color: rgba(4, 23, 66, 0.95);
+
 }
 
-h1 {
+.the-link {
+    margin-top: 2rem;
+}
+
+/*
+ * Header
+ */
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+
+    .nav-masthead {
+        float: right;
+    }
+}
+
+/*
+ * Cover
+ */
+.cover {
+    padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.lead {
     font-variant: all-small-caps;
     text-transform: uppercase;
-    font-size: 3vh;
+    font-size: 2vh;
     letter-spacing: 0.3vw;
     word-spacing: 0.5vw;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
 }
