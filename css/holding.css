@@ -1,0 +1,60 @@
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Assistant', sans-serif;
+  color:white;
+  background: url('../images/bak2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.overlay {
+  height:100%;
+  display: flex;
+  align-items: center;
+  background: rgba(6, 11, 36, 0.60);
+}
+
+h1 {
+  font-size: 5vh;
+  
+}
+h2 {
+  font-size: 4vh;
+  line-height: 9vh;
+
+  text-shadow: 0 .05rem .1rem rgba(23, 27, 26, 0.8);
+}
+h3 {
+  font-size: 3vh;
+  line-height: 4vh;
+
+  text-shadow: 0 .05rem .1rem rgba(23, 27, 26, 0.8);
+}
+.logo {
+  width:100px;
+  padding-bottom: 2rem;
+}
+.name {
+  
+  color:white;
+
+}
+.name span {
+  color: grey;
+}
+.title, .subtitle {
+  color: #3becc4;
+}
+.the-link {
+  padding-top:5vh;
+}
+.the-link a{
+  color: #3becc4;
+}
