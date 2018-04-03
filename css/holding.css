@@ -29,19 +29,19 @@ body {
 }
 
 h1 {
-  font-size: 5vh;
+  font-size: 6vh;
   
 }
 h2 {
   font-size: 4vh;
-  line-height: 9vh;
+  line-height: 5vh;
 
   text-shadow: 0 .05rem .1rem rgba(23, 27, 26, 0.8);
 }
 h3 {
   font-size: 3vh;
   line-height: 4vh;
-
+  padding-top:4vh;
   text-shadow: 0 .05rem .1rem rgba(23, 27, 26, 0.8);
 }
 .logo {
@@ -64,4 +64,11 @@ h3 {
 }
 .the-link a{
   color: #3becc4;
+}
+.footer {
+  left:0;
+  bottom:0;
+  position: absolute;
+  text-align: center;
+  width:100%;
 }
