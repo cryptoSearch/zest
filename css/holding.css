@@ -9,11 +9,11 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-family: "Assistant", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: white;
-  background: url("../images/bak3.jpg");
+  background: url("../images/bak4.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -35,7 +35,7 @@ h1 {
 h2 {
   font-size: 4vh;
   line-height: 5vh;
-
+  font-weight: bold;
   text-shadow: 0 0.05rem 0.1rem rgba(23, 27, 26, 0.8);
 }
 h3 {
