@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   font-family: "Titillium Web", sans-serif;
   color: white;
-  background: url("../images/bak4.jpg");
+  background: #000 url("../images/bak5.png");
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
