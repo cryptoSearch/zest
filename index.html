@@ -61,15 +61,21 @@
     }
 
     .overlay {
-      height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
+      /* height: 100%; */
+      /* display: -webkit-box;
+     
       display: flex;
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center;
+      align-items: center; */
       /* background: rgba(6, 11, 36, 0.60); */
+      height: 100vh;
       background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      display: -ms-flexbox;
+      align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
     }
 
     h1 {
@@ -94,6 +100,15 @@
       width: 70px;
       padding-bottom: 2rem;
     }
+
+    /* Smartphones (portrait and landscape) ----------- */
+
+    @media only screen and (min-width: 320px) and (max-width:568px) {
+      .container {
+        /* padding-top: 16rem; */
+      }
+
+    }
   </style>
 </head>
 
@@ -109,26 +124,26 @@
         <div class="whitepaper">
           <a href="Zest-White-Paper.pdf" class="downloadlink " target="_blank">Download Whitepaper</a>
         </div>
-        <h4 class="pt-4">Coming Soon.</h4>
+        <h4 class="pt-4">Coming Soon</h4>
       </div>
       <div class="the-link hi-icon-effect-8">
         <a href=”https://twitter.com/zestcoin” class="link hi-icon" target="_blank" rel="noopener" title="lets go to the ZestCoin twitter feed">
-          <i class="fab fa-twitter fa-4x"></i>
+          <i class="fab fa-twitter fa-3x"></i>
         </a>
         <a href="https://github.com/ZestFoundation" class="link hi-icon" target="_blank" rel="noopener" title="lets go to the ZestCoin github page">
-          <i class="fab fa-github fa-4x"></i>
+          <i class="fab fa-github fa-3x"></i>
         </a>
         <a href="https://www.instagram.com/zestcoin/" class="link hi-icon" target="_blank" rel="noopener" title="lets go to the ZestCoin instagram">
-          <i class="fab fa-instagram fa-4x"></i>
+          <i class="fab fa-instagram fa-3x"></i>
         </a>
         <a href="https://www.reddit.com/r/ZestCoin/" class="link hi-icon" target="_blank" rel="noopener" title="lets go to the ZestCoin reddit page">
-          <i class="fab fa-reddit fa-4x"></i>
+          <i class="fab fa-reddit fa-3x"></i>
         </a>
         <a href="https://t.me/zestcoin" class="link hi-icon" target="_blank" rel="noopener" title="lets go to the ZestCoin telegram">
-          <i class="fab fa-telegram-plane fa-4x"></i>
+          <i class="fab fa-telegram-plane fa-3x"></i>
         </a>
         <a href=”https://discord.gg/yH7kyxC” target="_blank" class="link hi-icon" rel="noopener" title="lets go to the ZestCoin discord">
-          <i class="fab fa-discord fa-4x"></i>
+          <i class="fab fa-discord fa-3x"></i>
         </a>
       </div>
     </section>

@@ -16,7 +16,7 @@
   color: #3becc4;
   /* padding:0 2vw; */
   margin: 1rem;
-  padding: 0.8rem 1rem;
+  padding: 0rem 0rem;
 }
 .footer {
   left: 0;
@@ -100,8 +100,8 @@
   animation: sonarEffect 1.3s ease-out 75ms;
 }
 .whitepaper {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .downloadlink {
   background: #08eec3;
