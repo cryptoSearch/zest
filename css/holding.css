@@ -99,7 +99,29 @@
   -moz-animation: sonarEffect 1.3s ease-out 75ms;
   animation: sonarEffect 1.3s ease-out 75ms;
 }
-
+.whitepaper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.downloadlink {
+  background: #08eec3;
+  color: #000;
+  border-radius: 0 5rem 0 5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  border: 1px solid #08eec3;
+  font-weight: bolder;
+}
+a.downloadlink {
+  text-decoration: none;
+}
+a.downloadlink:hover {
+  color: rgb(70, 69, 69);
+}
 @-webkit-keyframes sonarEffect {
   0% {
     opacity: 0.3;
